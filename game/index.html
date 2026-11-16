@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#071719">
+<link rel="icon" href="data:,">
+<title>Lantern Ward — The Last Harbour Watch</title>
+<style>
+* { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; overflow: hidden; background: #040d11; }
+body { display: grid; place-items: center; }
+canvas { display: block; width: min(100vw, 177.7778vh); height: min(100vh, 56.25vw); touch-action: none; outline: none; }
+#status { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+</style>
+</head>
+<body>
+<canvas id="game" width="1280" height="720" tabindex="0" aria-label="Lantern Ward. WASD or arrows move. Mouse aims. Hold mouse or Space to burn shadows; release to collect embers. Enter starts or restarts. M mutes. P pauses."></canvas>
+<p id="status" role="status" aria-live="polite">Lantern Ward. Press Enter to begin.</p>
+<script type="module" src="./src/main.js"></script>
+</body>
+</html>
