@@ -1,5 +1,11 @@
 # Lantern Ward
 
+[![make.fun · best-game-01](https://make.fun/badge/best-game-01.svg)](https://make.fun/bounty/best-game-01?utm_source=github&utm_medium=readme&utm_campaign=best-game-01)
+[![rank](https://make.fun/badge/best-game-01/Huacishu0503/lantern-ward/rank.svg)](https://make.fun/bounty/best-game-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=best-game-01)
+[![reward](https://make.fun/badge/best-game-01/Huacishu0503/lantern-ward/reward.svg)](https://make.fun/bounty/best-game-01?utm_source=github&utm_medium=readme&utm_campaign=best-game-01)
+
+An entry in [make.fun's “Make the best game” bounty](https://make.fun/bounty/best-game-01).
+
 You are the last lamplighter on a drowned harbour. Hold a hard cone of lantern light against five nights of violet shadows, then dim the flame to gather the embers they leave behind. Stoking consumes oil and destroys fallen embers; a soft glow lets you harvest their oil and score. Three hearts, fast lurkers, dividing splitters, and eight possible relics make each watch a balance of pressure and restraint. Everything is drawn with Canvas 2D; sound is synthesized locally. No assets, fonts, packages, or network access are needed.
 
 Run with Node 22 or later:
